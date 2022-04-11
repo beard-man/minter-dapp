@@ -110,7 +110,7 @@ const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a singl
 const PUBLIC_MINT_START_DATE = "2022-04-10T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-04-08T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x12193b74DC2De9236E2dE384B3BB77C0D4FA511f"; // Address that will receive the royalty
 const BASE_URI = "https://ipfs.io/ipfs/bafybeid5qkjuuxafq5li4a2ceeuw2uifrwwftsonlrnlezox5p3d642q4q"; // only update if you want to manually set the base uri
